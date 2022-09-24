@@ -16,7 +16,7 @@ var _SOLIDITY_TYPE_MAXIMA;
 var ChainId;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 43114] = "MAINNET";
+  ChainId[ChainId["MAINNET"] = 9731] = "MAINNET";
   ChainId[ChainId["BSCTESTNET"] = 43113] = "BSCTESTNET";
 })(ChainId || (ChainId = {}));
 
