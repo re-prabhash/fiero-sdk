@@ -1,6 +1,5 @@
 import JSBI from 'jsbi'
 export { JSBI }
-console.log('Data')
 export {
   BigintIsh,
   ChainId,
