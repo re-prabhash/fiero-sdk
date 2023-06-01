@@ -1,6 +1,6 @@
 import JSBI from 'jsbi'
 export { JSBI }
-
+console.log('Data')
 export {
   BigintIsh,
   ChainId,
@@ -8,7 +8,7 @@ export {
   Rounding,
   FACTORY_ADDRESS,
   INIT_CODE_HASH,
-  MINIMUM_LIQUIDITY
+  MINIMUM_LIQUIDITY,
 } from './constants'
 
 export * from './errors'
