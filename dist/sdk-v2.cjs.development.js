@@ -20,8 +20,8 @@ var IPancakePair = _interopDefault(require('@pancakeswap-libs/pancake-swap-core/
 var _SOLIDITY_TYPE_MAXIMA;
 
 (function (ChainId) {
-  ChainId[ChainId["MAINNET"] = 9731] = "MAINNET";
-  ChainId[ChainId["BSCTESTNET"] = 9732] = "BSCTESTNET";
+  ChainId[ChainId["MAINNET"] = 1001] = "MAINNET";
+  ChainId[ChainId["BSCTESTNET"] = 1001] = "BSCTESTNET";
 })(exports.ChainId || (exports.ChainId = {}));
 
 (function (TradeType) {
@@ -35,8 +35,8 @@ var _SOLIDITY_TYPE_MAXIMA;
   Rounding[Rounding["ROUND_UP"] = 2] = "ROUND_UP";
 })(exports.Rounding || (exports.Rounding = {}));
 
-var FACTORY_ADDRESS = '0x0e209E4A8E35e689281ff66d478277A84627eF94';
-var INIT_CODE_HASH = '0x6a2793dffb586435b4f3207834f181b2f8cfea37ef80f07e8300d1d4bfc2d25e';
+var FACTORY_ADDRESS = '0x7fdBdA63C5DC3187707baC4D7dD3831421B84E40';
+var INIT_CODE_HASH = '567c8f30d83520898aa33ea8c9570473b0d3294bee1f2dd960617a1e9bc3b6dc';
 var MINIMUM_LIQUIDITY = /*#__PURE__*/JSBI.BigInt(1000); // exports for internal consumption
 
 var ZERO = /*#__PURE__*/JSBI.BigInt(0);
@@ -435,7 +435,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0x0a5DAE5e149730c8BED724285E5281F960946c0E', 18, 'WQIE', 'Wrapped QIE'), _WETH[exports.ChainId.BSCTESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSCTESTNET, '0x0a5DAE5e149730c8BED724285E5281F960946c0E', 18, 'WQIE', 'Wrapped QIE'), _WETH);
+var WETH = (_WETH = {}, _WETH[exports.ChainId.MAINNET] = /*#__PURE__*/new Token(exports.ChainId.MAINNET, '0xFBDa77Bf7a52B9Fe21B8D5354f12A006cD2c55C6', 18, 'WFIERO', 'Wrapped FIERO'), _WETH[exports.ChainId.BSCTESTNET] = /*#__PURE__*/new Token(exports.ChainId.BSCTESTNET, '0xFBDa77Bf7a52B9Fe21B8D5354f12A006cD2c55C6', 18, 'WFIERO', 'Wrapped FIERO'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);

@@ -59,16 +59,16 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 export const WETH = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0x0a5DAE5e149730c8BED724285E5281F960946c0E',
+    '0xFBDa77Bf7a52B9Fe21B8D5354f12A006cD2c55C6',
     18,
-    'WQIE',
-    'Wrapped QIE'
+    'WFIERO',
+    'Wrapped FIERO'
   ),
   [ChainId.BSCTESTNET]: new Token(
     ChainId.BSCTESTNET,
-    '0x0a5DAE5e149730c8BED724285E5281F960946c0E',
+    '0xFBDa77Bf7a52B9Fe21B8D5354f12A006cD2c55C6',
     18,
-    'WQIE',
-    'Wrapped QIE'
+    'WFIERO',
+    'Wrapped FIERO'
   )
 }
